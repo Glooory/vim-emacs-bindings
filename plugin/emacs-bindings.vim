@@ -1,6 +1,8 @@
 " Basic cursor movement and deletion keybindings from emacs, for vim.
 
 " insert mode
+imap <C-p> <Up>
+imap <C-n> <Down>
 imap <C-b> <Left>
 imap <C-f> <Right>
 imap <C-a> <C-o>:call <SID>home()<CR>
